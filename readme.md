@@ -18,10 +18,10 @@ pip install wread
 
 ## Usage example
 
-Wread includes three types of function: ``pickle``, ``txt``, and ``csv``.
+Wread includes three types of function: ``pickle``, ``txt``, and ``csv``. Import all of them by importing the package ``wread``.
 
 ```
-from wread import txt
+import wread  
 ----
 # Append a line to a text file, creates if doesnt exist.
 
@@ -33,7 +33,7 @@ write_2_txt(input_file, content)
 ```
 
 ```
-from wread import pickle
+import wread
 ----
 # Saves variable as pickle file.
 
@@ -45,7 +45,7 @@ read_pickle(input_file)
 ```
 
 ```
-from wread import csv
+import wread
 ----
 # Load csv and output row content as lists in list of rows.
 
