@@ -12,16 +12,17 @@ Wread simplifies common actions of ``pickle``, ``txt``, and ``csv``, making life
 
 OS X & Linux:
 
+*Coming soon*
 ```
 pip install wread
 ```
 
 ## Usage example
 
-Wread includes three types of function: ``pickle``, ``txt``, and ``csv``.
+Wread includes three types of function: ``pickle``, ``txt``, and ``csv``. Import all with ``from wread import *``.
 
 ```
-from wread import txt
+from wread import *
 ----
 # Append a line to a text file, creates if doesnt exist.
 
@@ -33,7 +34,7 @@ write_2_txt(input_file, content)
 ```
 
 ```
-from wread import pickle
+from wread import *
 ----
 # Saves variable as pickle file.
 
@@ -45,7 +46,7 @@ read_pickle(input_file)
 ```
 
 ```
-from wread import csv
+from wread import *
 ----
 # Load csv and output row content as lists in list of rows.
 
